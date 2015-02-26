@@ -1,14 +1,14 @@
 {
-	"name": "blackboard",
+	"name": "blackboard-ui",
 	"theme": "syntax",
 	"version": "0.1.0",
 	"private": true,
-	"description": "TextMate’s Blackboard syntax theme, ported to Atom.",
-	"repository": "https://github.com/mathiasbynens/atom-blackboard",
+	"description": "Bruno Bord TextMate Blackboard syntax theme, ported to Atom.",
+	"repository": "https://github.com/brunobord/atom-blackboard",
 	"bugs": {
-		"url": "https://github.com/mathiasbynens/atom-blackboard/issues"
+		"url": "https://github.com/brunobord/atom-blackboard/issues"
 	},
-	"homepage": "https://github.com/mathiasbynens/atom-blackboard",
+	"homepage": "https://github.com/brunobord/atom-blackboard",
 	"license": "MIT",
 	"engines": {
 		"atom": ">0.60.0"
