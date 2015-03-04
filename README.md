@@ -1,5 +1,7 @@
 # Blackboard theme for Atom
 
+*This is a fork by [Bruno Bord](https://github.com/brunobord/)*
+
 TextMate’s Blackboard syntax theme, ported to [Atom](https://atom.io/).
 
 ![](http://i.imgur.com/wdAIowr.png)
