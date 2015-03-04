@@ -1,17 +1,28 @@
-.editor, .editor .gutter {
-	background-color: #0C1021;
-	color: #F8F8F8;
+@background: #0C1021;
+@text-color: #F8F8F8;
+@keyword: #FBDE2D;
+@entity: #FF6400;
+
+.selected {
+	background-color: @text-color;
+	color: @background;
 }
 
-.editor.is-focused .cursor {
+atom-text-editor, atom-text-editor .gutter {
+	background-color: @background;
+	color: @text-color;
+}
+
+atom-text-editor.is-focused .cursor {
 	border-color: rgba(255, 255, 255, 0.65);
 }
 
-.editor.is-focused .selection .region {
+atom-text-editor.is-focused .selection .region {
 	background-color: #253B76;
 }
 
-.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+.is-focused .line-number.cursor-line-no-selection,
+.is-focused .line.cursor-line {
 	background-color: rgba(255, 255, 255, 0.06);
 }
 
@@ -24,15 +35,15 @@
 }
 
 .entity {
-	color: #FF6400;
+	color: @entity;
 }
 
 .keyword {
-	color: #FBDE2D;
+	color: @keyword;
 }
 
 .storage {
-	color: #FBDE2D;
+	color: @keyword;
 }
 
 .string, .meta.verbatim {
@@ -52,17 +63,17 @@
 }
 
 .invalid.illegal {
-	color: #F8F8F8;
+	color: @text-color;
 	background-color: #9D1E15;
 }
 
 .entity.other.inherited-class {
 	font-style: italic;
-	color: #FF6400;
+	color: @entity;
 }
 
 .string .constant.other.placeholder {
-	color: #FF6400;
+	color: @entity;
 }
 
 .meta.function-call.py {
@@ -82,7 +93,7 @@
 }
 
 .source.ocaml .keyword.operator.symbol {
-	color: #F8F8F8;
+	color: @text-color;
 }
 
 .source.ocaml .keyword.operator.symbol.infix {
