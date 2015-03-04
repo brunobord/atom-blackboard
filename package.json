@@ -1,7 +1,7 @@
 {
 	"name": "blackboard-bb-ui",
 	"theme": "syntax",
-	"version": "0.0.1",
+	"version": "0.2.0",
 	"private": true,
 	"description": "Bruno Bord TextMate Blackboard syntax theme, ported to Atom.",
 	"repository": "https://github.com/brunobord/atom-blackboard",
