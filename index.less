@@ -2,6 +2,7 @@
 @text-color: #F8F8F8;
 @keyword: #FBDE2D;
 @entity: #FF6400;
+@comment: #AEAEAE;
 
 atom-text-editor, atom-text-editor .gutter {
 	background-color: @background;
@@ -22,8 +23,8 @@ atom-text-editor.is-focused .cursor {
 	background-color: rgba(255, 255, 255, 0.06);
 }
 
-.comment {
-	color: #AEAEAE;
+.comment, .raw {
+	color: @comment;
 }
 
 .constant {
