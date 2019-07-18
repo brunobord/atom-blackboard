@@ -146,3 +146,33 @@ syntax--text.syntax--tex.syntax--latex .syntax--meta.syntax--function.syntax--en
 .syntax--bold {
 	font-weight: bold;
 }
+
+/* Git file patch view */
+@patch-block: @background;
+.github-FilePatchView-controlBlock {
+	background-color: @patch-block;
+}
+.github-HunkHeaderView:hover {
+	background-color: @patch-block;
+}
+.github-FilePatchView-header .btn-group {
+	background-color: @patch-block;
+}
+.github-HunkHeaderView {
+	background-color: @patch-block;
+}
+.github-FilePatchView-header {
+	background-color: @patch-block;
+}
+.github-FilePatchView-title {
+	background-color: @patch-block;
+}
+.github-HunkHeaderView-title {
+	color: white;
+}
+.github-HunkHeaderView--isSelected, .github-HunkHeaderView-stageButton:hover, .github-HunkHeaderView-title:hover {
+	background-color: lighten(@patch-block, 10%);
+}
+.github-FilePatchView-line--selected {
+	background-color: lighten(@patch-block, 14%);
+}
